@@ -70,26 +70,30 @@ taskflow/
 └── README.md
 ```
 
-⚙️ Installation & Setup
-Prerequisites
-
-Node.js (v18+)
-Supabase account
+⚙️ Installation & Setup Prerequisites
+- **Node.js (v18+)**
+- **Supabase account**
 
 ## Clone Repository
-git clone https://github.com/your-username/taskflow.git
-cd taskflow
+```
+**git clone https://github.com/your-username/taskflow.git**
+**cd taskflow**
+```
 
 ## Install Dependencies
-npm install
-
+```
+**npm install**
+```
 ## Environment Variables
-Create a .env file in the root directory:
-VITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-
+```
+**Create a .env file in the root directory:**
+  - VITE_SUPABASE_URL=your_supabase_project_url
+  - VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 ## Run the Application
-npm run dev
+```
+**npm run dev**
+```
 
 ### 🔐 Security Practices
 
