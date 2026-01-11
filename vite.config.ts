@@ -4,6 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(() => ({
+  base: "/", // This ensures all assets are loaded from the root correctly
   server: {
     host: "::",
     port: 8080,
