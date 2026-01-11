@@ -58,7 +58,7 @@ The application uses **Supabase** as a Backend-as-a-Service (BaaS) for authentic
 ---
 
 ## 📁 Project Structure
-
+``` bash
 taskflow/
 ├── src/
 │   ├── components/
@@ -68,6 +68,7 @@ taskflow/
 │   └── styles/
 ├── public/
 └── README.md
+```
 
 ⚙️ Installation & Setup
 Prerequisites
@@ -90,7 +91,7 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ## Run the Application
 npm run dev
 
-🔐 Security Practices
+### 🔐 Security Practices
 
 1. Supabase-managed authentication
 2. Secure session handling
@@ -98,7 +99,7 @@ npm run dev
 4. Protected frontend routes
 5. Input validation and error handling
 
-📈 Scalability Notes
+### 📈 Scalability Notes
 
 1. Modular and maintainable frontend architecture
 2. Supabase PostgreSQL for reliable data storage
@@ -106,7 +107,7 @@ npm run dev
 4. Ready for real-time features using Supabase subscriptions
 5. API-first approach supports future mobile or web clients
 
-🧪 Future Enhancements
+### 🧪 Future Enhancements
 
 1. Real-time task updates
 2. Task reminders & notifications
